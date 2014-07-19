@@ -1,0 +1,18 @@
+﻿<web-app>
+	<servlet>
+		<servlet-name>st1</servlet-name>
+		<servlet-class>mypack.FirstServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>st1</servlet-name>
+		<url-pattern>/servlet1</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>st2</servlet-name>
+		<servlet-class>mypack.SecondServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>st2</servlet-name>
+		<url-pattern>/servlet2</url-pattern>
+	</servlet-mapping>
+</web-app>
